@@ -29,4 +29,22 @@ elif x > 30:
 else:
   print("Não ligue o ar condicionado")
   
-  
+# Digite a temperatura: 24
+# Não ligue o ar condicionado
+#"enquanto a temperatura estiver acima de 25 graus Celsius, ligue o ventilador"
+x = 20
+while x < 25:
+  print("Não ligue o ventilador")
+  print(x)
+  x += 1  
+print(x, "Agora podemos ligar o ventilador")
+
+#"para cada item na lista de compras, adicione o item ao carrinho de compras"
+lista = ['trigo','leite','ovos','manteiga']
+carrinho = []
+print("Itens no carrinho: ",carrinho)
+for i in lista:
+  carrinho.append(i)
+  print(carrinho)
+print("Compras feitas: ",carrinho)
+
