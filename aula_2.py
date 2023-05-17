@@ -48,3 +48,13 @@ for i in lista:
   print(carrinho)
 print("Compras feitas: ",carrinho)
 
+## Apenasa um test
+
+lista = ['trigo','leite','ovos','manteiga']
+carrinho = []
+print("Itens no carrinho: ",carrinho)
+for i in lista:
+  carrinho.append(i)
+  print(carrinho)
+print("Compras feitas: ",carrinho)
+
